@@ -1,0 +1,4 @@
+#!/usr/bin/env nodejs
+
+require = require('esm')
+require('../src/cli.js).cli(process.env)
